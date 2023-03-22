@@ -46,7 +46,7 @@ function timer(){
         hours.innerHTML = 23
         days.innerHTML = parseInt(days.innerHTML) - 1
     }
-    if(seconds.innerHTML <= 0 && minutes.innerHTML <= 00 && hours.innerHTML <= 00 && days.innerHTML <= 00){
+    if(seconds.innerHTML <= 0 && minutes.innerHTML <= 0 && hours.innerHTML <= 0 && days.innerHTML <= 00){
         localStorage.setItem('hidden', 'hiddenYes')
         everything.classList.add('hidden')
         patience.classList.remove('hidden')
